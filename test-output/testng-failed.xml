@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [RedBus Mobile Application Functional]" parallel="tests">
+  <parameter name="selenium.port" value="4444"/>
+  <parameter name="selenium.host" value="localhost"/>
+  <parameter name="selenium.browser" value="chrome"/>
+  <listeners>
+    <listener class-name="android.utility.CustomReporterListener"/>
+    <listener class-name="android.utility.CustomReporterEmailBuildSummary"/>
+    <listener class-name="android.utility.CustomReporterforEmail"/>
+    <listener class-name="android.utility.CustomReporterBuildSummary"/>
+    <listener class-name="android.utility.CustomReporterTestpassDetails"/>
+    <listener class-name="android.utility.CustomReporterTestFailureDetails"/>
+    <listener class-name="android.utility.CustomReporterTestskipDetails"/>
+    <listener class-name="android.utility.CustomReporterTestDetails"/>
+  </listeners>
+  <test name="Sign Up:: 01(failed)" parallel="tests">
+    <classes>
+      <class name="android.Index.RedBusIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="SignupwithRedBus"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.Index.RedBusIndex -->
+    </classes>
+  </test> <!-- Sign Up:: 01(failed) -->
+  <test name="Login:: 02(failed)" parallel="tests">
+    <classes>
+      <class name="android.Index.RedBusIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="SigninwithRedBus"/>
+        </methods>
+      </class> <!-- android.Index.RedBusIndex -->
+    </classes>
+  </test> <!-- Login:: 02(failed) -->
+  <test name="Swipe Screens:: 03(failed)" parallel="tests">
+    <classes>
+      <class name="android.Index.RedBusIndex">
+        <methods>
+          <include name="swipethescreens"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.Index.RedBusIndex -->
+    </classes>
+  </test> <!-- Swipe Screens:: 03(failed) -->
+  <test name="Select Trip and Fare:: 04(failed)" parallel="tests">
+    <classes>
+      <class name="android.Index.RedBusIndex">
+        <methods>
+          <include name="selectyourroute"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.Index.RedBusIndex -->
+    </classes>
+  </test> <!-- Select Trip and Fare:: 04(failed) -->
+  <test name="Login:: 05(failed)" parallel="tests">
+    <classes>
+      <class name="android.Index.RedBusIndex">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- android.Index.RedBusIndex -->
+    </classes>
+  </test> <!-- Login:: 05(failed) -->
+</suite> <!-- Failed suite [RedBus Mobile Application Functional] -->

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-RedBus_Mobile_Application_Functional">
+              <span class="suite-name border-passed">RedBus Mobile Application Functional</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-RedBus_Mobile_Application_Functional">
+                    <span>C:\Users\admin\eclipse-workspace\RedBus\Build\RedBusIndex.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-RedBus_Mobile_Application_Functional">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-RedBus_Mobile_Application_Functional">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-RedBus_Mobile_Application_Functional">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-RedBus_Mobile_Application_Functional">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-RedBus_Mobile_Application_Functional">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-RedBus_Mobile_Application_Functional">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-RedBus_Mobile_Application_Functional" class="hide-methods passed suite-RedBus_Mobile_Application_Functional"> (hide)</a> <!-- hide-methods passed suite-RedBus_Mobile_Application_Functional -->
+                      <a href="#" panel-name="suite-RedBus_Mobile_Application_Functional" class="show-methods passed suite-RedBus_Mobile_Application_Functional"> (show)</a> <!-- show-methods passed suite-RedBus_Mobile_Application_Functional -->
+                    </span>
+                    <div class="method-list-content passed suite-RedBus_Mobile_Application_Functional">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RedBus_Mobile_Application_Functional" title="android.Index.RedBusIndex" hash-for-method="SigninwithRedBus">SigninwithRedBus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RedBus_Mobile_Application_Functional" title="android.Index.RedBusIndex" hash-for-method="SignupwithRedBus">SignupwithRedBus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RedBus_Mobile_Application_Functional" title="android.Index.RedBusIndex" hash-for-method="login">login</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RedBus_Mobile_Application_Functional" title="android.Index.RedBusIndex" hash-for-method="selectyourroute">selectyourroute</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-RedBus_Mobile_Application_Functional" title="android.Index.RedBusIndex" hash-for-method="swipethescreens">swipethescreens</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-RedBus_Mobile_Application_Functional -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-RedBus_Mobile_Application_Functional" class="panel RedBus_Mobile_Application_Functional">
+          <div class="suite-RedBus_Mobile_Application_Functional-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">android.Index.RedBusIndex</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SigninwithRedBus">
+                  </a> <!-- SigninwithRedBus -->
+                  <span class="method-name">SigninwithRedBus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SignupwithRedBus">
+                  </a> <!-- SignupwithRedBus -->
+                  <span class="method-name">SignupwithRedBus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="login">
+                  </a> <!-- login -->
+                  <span class="method-name">login</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectyourroute">
+                  </a> <!-- selectyourroute -->
+                  <span class="method-name">selectyourroute</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="swipethescreens">
+                  </a> <!-- swipethescreens -->
+                  <span class="method-name">swipethescreens</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-RedBus_Mobile_Application_Functional-class-passed -->
+        </div> <!-- panel RedBus_Mobile_Application_Functional -->
+        <div panel-name="test-xml-RedBus_Mobile_Application_Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\eclipse-workspace\RedBus\Build\RedBusIndex.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;RedBus Mobile Application Functional&quot; parallel=&quot;tests&quot;&gt;
+  &lt;parameter name=&quot;selenium.port&quot; value=&quot;4444&quot;/&gt;
+  &lt;parameter name=&quot;selenium.host&quot; value=&quot;localhost&quot;/&gt;
+  &lt;parameter name=&quot;selenium.browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterListener&quot;/&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterEmailBuildSummary&quot;/&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterforEmail&quot;/&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterBuildSummary&quot;/&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterTestpassDetails&quot;/&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterTestFailureDetails&quot;/&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterTestskipDetails&quot;/&gt;
+    &lt;listener class-name=&quot;android.utility.CustomReporterTestDetails&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Sign Up:: 01&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;android.Index.RedBusIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;SignupwithRedBus&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- android.Index.RedBusIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sign Up:: 01 --&gt;
+  &lt;test name=&quot;Login:: 02&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;android.Index.RedBusIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;SigninwithRedBus&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- android.Index.RedBusIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login:: 02 --&gt;
+  &lt;test name=&quot;Swipe Screens:: 03&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;android.Index.RedBusIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;swipethescreens&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- android.Index.RedBusIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Swipe Screens:: 03 --&gt;
+  &lt;test name=&quot;Select Trip and Fare:: 04&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;android.Index.RedBusIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;selectyourroute&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- android.Index.RedBusIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Select Trip and Fare:: 04 --&gt;
+  &lt;test name=&quot;Login:: 05&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;android.Index.RedBusIndex&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;login&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- android.Index.RedBusIndex --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login:: 05 --&gt;
+&lt;/suite&gt; &lt;!-- RedBus Mobile Application Functional --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-RedBus_Mobile_Application_Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for RedBus Mobile Application Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Sign Up:: 01 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login:: 02 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Swipe Screens:: 03 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Select Trip and Fare:: 04 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Login:: 05 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-RedBus_Mobile_Application_Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for RedBus Mobile Application Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-RedBus_Mobile_Application_Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for RedBus Mobile Application Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_RedBus_Mobile_Application_Functional');
+function tableData_RedBus_Mobile_Application_Functional() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SignupwithRedBus')
+data.setCell(0, 2, 'android.Index.RedBusIndex')
+data.setCell(0, 3, 1);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'selectyourroute')
+data.setCell(1, 2, 'android.Index.RedBusIndex')
+data.setCell(1, 3, 1);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SigninwithRedBus')
+data.setCell(2, 2, 'android.Index.RedBusIndex')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'swipethescreens')
+data.setCell(3, 2, 'android.Index.RedBusIndex')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'login')
+data.setCell(4, 2, 'android.Index.RedBusIndex')
+data.setCell(4, 3, 0);
+window.suiteTableData['RedBus_Mobile_Application_Functional']= { tableData: data, tableDiv: 'times-div-RedBus_Mobile_Application_Functional'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 ms</span>
+              <div id="times-div-RedBus_Mobile_Application_Functional">
+              </div> <!-- times-div-RedBus_Mobile_Application_Functional -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-RedBus_Mobile_Application_Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for RedBus Mobile Application Functional</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SignupwithRedBus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> Sign Up with RedBus using all valid Details </h3> </strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">SigninwithRedBus</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">swipethescreens</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">selectyourroute</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">login</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-RedBus_Mobile_Application_Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">20 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">android.Index.RedBusIndex</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">swipethescreens</span>
+                <br/>
+                <span class="ignored-method-name">selectyourroute</span>
+                <br/>
+                <span class="ignored-method-name">swipethescreens</span>
+                <br/>
+                <span class="ignored-method-name">selectyourroute</span>
+                <br/>
+                <span class="ignored-method-name">selectyourroute</span>
+                <br/>
+                <span class="ignored-method-name">swipethescreens</span>
+                <br/>
+                <span class="ignored-method-name">swipethescreens</span>
+                <br/>
+                <span class="ignored-method-name">selectyourroute</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+                <span class="ignored-method-name">SignupwithRedBus</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+                <span class="ignored-method-name">SignupwithRedBus</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+                <span class="ignored-method-name">SignupwithRedBus</span>
+                <br/>
+                <span class="ignored-method-name">login</span>
+                <br/>
+                <span class="ignored-method-name">SignupwithRedBus</span>
+                <br/>
+                <span class="ignored-method-name">SigninwithRedBus</span>
+                <br/>
+                <span class="ignored-method-name">SigninwithRedBus</span>
+                <br/>
+                <span class="ignored-method-name">SigninwithRedBus</span>
+                <br/>
+                <span class="ignored-method-name">SigninwithRedBus</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-RedBus_Mobile_Application_Functional" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">android.Index.RedBusIndex</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void android.Index.RedBusIndex.SignupwithRedBus() throws java.lang.Exception)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SignupwithRedBus</span>
+                <span class="method-start">93359 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SignupwithRedBus status=SUCCESS method=RedBusIndex.SignupwithRedBus()[pri:0, instan...)</span>
+                <span class="method-start">93361 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void android.Index.RedBusIndex.SigninwithRedBus() throws java.lang.Exception)</span>
+                <span class="method-start">101634 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SigninwithRedBus</span>
+                <span class="method-start">173119 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SigninwithRedBus status=SUCCESS method=RedBusIndex.SigninwithRedBus()[pri:0, instan...)</span>
+                <span class="method-start">173120 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void android.Index.RedBusIndex.swipethescreens() throws java.lang.Exception)</span>
+                <span class="method-start">182161 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">swipethescreens</span>
+                <span class="method-start">253604 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=swipethescreens status=SUCCESS method=RedBusIndex.swipethescreens()[pri:0, instance...)</span>
+                <span class="method-start">253604 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void android.Index.RedBusIndex.selectyourroute() throws java.lang.Exception)</span>
+                <span class="method-start">262022 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">selectyourroute</span>
+                <span class="method-start">333403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=selectyourroute status=SUCCESS method=RedBusIndex.selectyourroute()[pri:0, instance...)</span>
+                <span class="method-start">333404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(public void android.Index.RedBusIndex.login() throws java.lang.Exception)</span>
+                <span class="method-start">341827 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">412515 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=login status=SUCCESS method=RedBusIndex.login()[pri:0, instance:android.Index.RedBu...)</span>
+                <span class="method-start">412516 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

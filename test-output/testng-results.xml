@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign Up with RedBus using all valid Details </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+    </line>
+    <line>
+      <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+    </line>
+  </reporter-output>
+  <suite name="RedBus Mobile Application Functional" duration-ms="420807" started-at="2019-01-18T10:51:16Z" finished-at="2019-01-18T10:58:17Z">
+    <groups>
+    </groups>
+    <test name="Sign Up:: 01" duration-ms="101606" started-at="2019-01-18T10:51:16Z" finished-at="2019-01-18T10:52:58Z">
+      <class name="android.Index.RedBusIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@2a2d45ba]" name="setUp" is-config="true" duration-ms="93359" started-at="2019-01-18T10:51:16Z" finished-at="2019-01-18T10:52:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.Index.RedBusIndex.SignupwithRedBus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignupwithRedBus()[pri:0, instance:android.Index.RedBusIndex@2a2d45ba]" name="SignupwithRedBus" duration-ms="1" started-at="2019-01-18T10:52:49Z" finished-at="2019-01-18T10:52:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign Up with RedBus using all valid Details </h3> </strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignupwithRedBus -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@2a2d45ba]" name="tearDown" is-config="true" duration-ms="8229" started-at="2019-01-18T10:52:49Z" finished-at="2019-01-18T10:52:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SignupwithRedBus status=SUCCESS method=RedBusIndex.SignupwithRedBus()[pri:0, instance:android.Index.RedBusIndex@2a2d45ba] output=<strong> <h3 style="color:DarkViolet"> Sign Up with RedBus using all valid Details </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.Index.RedBusIndex -->
+    </test> <!-- Sign Up:: 01 -->
+    <test name="Login:: 02" duration-ms="80518" started-at="2019-01-18T10:52:58Z" finished-at="2019-01-18T10:54:18Z">
+      <class name="android.Index.RedBusIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@5b275dab]" name="setUp" is-config="true" duration-ms="71485" started-at="2019-01-18T10:52:58Z" finished-at="2019-01-18T10:54:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.Index.RedBusIndex.SigninwithRedBus() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SigninwithRedBus()[pri:0, instance:android.Index.RedBusIndex@5b275dab]" name="SigninwithRedBus" duration-ms="0" started-at="2019-01-18T10:54:09Z" finished-at="2019-01-18T10:54:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SigninwithRedBus -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@5b275dab]" name="tearDown" is-config="true" duration-ms="9031" started-at="2019-01-18T10:54:09Z" finished-at="2019-01-18T10:54:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SigninwithRedBus status=SUCCESS method=RedBusIndex.SigninwithRedBus()[pri:0, instance:android.Index.RedBusIndex@5b275dab] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.Index.RedBusIndex -->
+    </test> <!-- Login:: 02 -->
+    <test name="Swipe Screens:: 03" duration-ms="79854" started-at="2019-01-18T10:54:18Z" finished-at="2019-01-18T10:55:38Z">
+      <class name="android.Index.RedBusIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@3532ec19]" name="setUp" is-config="true" duration-ms="71443" started-at="2019-01-18T10:54:18Z" finished-at="2019-01-18T10:55:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.Index.RedBusIndex.swipethescreens() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="swipethescreens()[pri:0, instance:android.Index.RedBusIndex@3532ec19]" name="swipethescreens" duration-ms="0" started-at="2019-01-18T10:55:30Z" finished-at="2019-01-18T10:55:30Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- swipethescreens -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@3532ec19]" name="tearDown" is-config="true" duration-ms="8409" started-at="2019-01-18T10:55:30Z" finished-at="2019-01-18T10:55:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=swipethescreens status=SUCCESS method=RedBusIndex.swipethescreens()[pri:0, instance:android.Index.RedBusIndex@3532ec19] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.Index.RedBusIndex -->
+    </test> <!-- Swipe Screens:: 03 -->
+    <test name="Select Trip and Fare:: 04" duration-ms="79796" started-at="2019-01-18T10:55:38Z" finished-at="2019-01-18T10:56:58Z">
+      <class name="android.Index.RedBusIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@47c62251]" name="setUp" is-config="true" duration-ms="71381" started-at="2019-01-18T10:55:38Z" finished-at="2019-01-18T10:56:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.Index.RedBusIndex.selectyourroute() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="selectyourroute()[pri:0, instance:android.Index.RedBusIndex@47c62251]" name="selectyourroute" duration-ms="1" started-at="2019-01-18T10:56:49Z" finished-at="2019-01-18T10:56:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- selectyourroute -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@47c62251]" name="tearDown" is-config="true" duration-ms="8413" started-at="2019-01-18T10:56:49Z" finished-at="2019-01-18T10:56:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectyourroute status=SUCCESS method=RedBusIndex.selectyourroute()[pri:0, instance:android.Index.RedBusIndex@47c62251] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.Index.RedBusIndex -->
+    </test> <!-- Select Trip and Fare:: 04 -->
+    <test name="Login:: 05" duration-ms="78966" started-at="2019-01-18T10:56:58Z" finished-at="2019-01-18T10:58:17Z">
+      <class name="android.Index.RedBusIndex">
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:android.Index.RedBusIndex@3bfdc050]" name="setUp" is-config="true" duration-ms="70688" started-at="2019-01-18T10:56:58Z" finished-at="2019-01-18T10:58:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void android.Index.RedBusIndex.login() throws java.lang.Exception]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>------------------- Initiating the Mobile App Session -------------------</br>]]>
+            </line>
+            <line>
+              <![CDATA[<br>--------------------------------------------------------------------------</br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:android.Index.RedBusIndex@3bfdc050]" name="login" duration-ms="0" started-at="2019-01-18T10:58:09Z" finished-at="2019-01-18T10:58:09Z">
+          <reporter-output>
+            <line>
+              <![CDATA[<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:android.Index.RedBusIndex@3bfdc050]" name="tearDown" is-config="true" duration-ms="8276" started-at="2019-01-18T10:58:09Z" finished-at="2019-01-18T10:58:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=RedBusIndex.login()[pri:0, instance:android.Index.RedBusIndex@3bfdc050] output=<strong> <h3 style="color:DarkViolet"> Sign In with RedBus using valid Credential Details </h3> </strong>]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- android.Index.RedBusIndex -->
+    </test> <!-- Login:: 05 -->
+  </suite> <!-- RedBus Mobile Application Functional -->
+</testng-results>
